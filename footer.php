@@ -13,11 +13,11 @@
           <h3 class="headline headline--small">Explore</h3>
           <nav class="nav-list">
             <ul>
-                  <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
-                  <li><a href="#">Programs</a></li>
-                  <li><a href="#">Events</a></li>
-                  <li><a href="#">Campuses</a></li>
-                </ul>
+              <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
+              <li><a href="#">Programs</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Campuses</a></li>
+            </ul>
           </nav>
         </div>
 
@@ -67,8 +67,14 @@
       <i class="fa fa-window-close search-overlay__close" aria-hidden="true"></i>
     </div>
   </div>
+  <div class="container">
+    <div id="search-overlay__results">
+      
+    </div>
+  </div>
 </div>
 
 <?php wp_footer(); ?>
 </body>
+
 </html>
